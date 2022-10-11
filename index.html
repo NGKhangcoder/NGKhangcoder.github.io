@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Music Concert</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  
+ 
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" width="80px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+    
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Concert</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Singers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>  
+          <li class="nav-item">
+            <button class="buy">Buy ticket</button>  
+          </li>  
+        </ul> 
+             
+      </div>
+      </div>
+    </div>
+  </nav>
+
+
+<main>
+  <section id="countdown">
+    <div class="container">
+      <div class="time">
+        <p>00</p>
+        <p>Day</p>
+      </div>
+      <div class="time">
+        <p>00</p>
+        <p>Hour</p>
+      </div>
+      <div class="time">
+        <p>00</p>
+        <p>Minute</p>
+      </div>
+      <div class="time">
+        <p>00</p>
+        <p>Second</p>
+      </div>
+    </div>
+  </section>
+  <section id="information">
+        <div class=" text-center container" id="about">
+          <h1 class="hello " data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Hello</h1>
+          <p class="chaomung mb-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Welcome ladies and gentleman</p>
+          <p class="gioithieu" data-aos="fade-up">Phiêu is a concert which is celebrated at Hồ Chí Minh City. We want to be your favorite melody vivid so come with us</p>
+          <div class="show mb-5 " data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <div class="left">
+              <h1><span>05</span></h1>
+            </div>
+            <div class="right">
+              <span>OCTOBER 2019</span><br>
+              <span>KĐT Sala, Mai Chí Thọ, District 2, TP.HCM</span>
+            </div>
+          </div>
+          <button class="buy "data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" >Buy ticket</button>
+        </div>
+  </section>
+ <section>
+    <div class="listsinger">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="singer">
+          <h2 class="heading text-center">Who will come?</h2>
+        </div>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="img">
+              <img src="image/namkun.png"   width="100%">
+              <img src="image/jiinguyen.png"   width="100%">
+              <img src="image/thinhsuy.png"   width="100%">   
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img">
+              <img src="image/tientien.png"   width="100%">
+              <img src="image/hakoota.png"   width="100%">
+              <img src="image/cahoihoang.png"   width="100%">   
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="img">
+              <img src="image/klaf.png"   width="100%">
+              <img src="image/monocycle.png"   width="100%">
+              <img src="image/osad.png"   width="100%">   
+            </div>
+          </div>
+        </div>   
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>  
+  <section id="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 text-center dau " data-aos="fade-up"  >
+          <div class="innerDau">
+            <img src="image/daudo.png" width="100px">
+          <p class="name">Đậu Đỏ</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">SOLD OUT</button>
+          </div>
+        </div>
+         <div class="col-sm-6 col-md-3 text-center dau" data-aos-delay="300"  data-aos="fade-up">
+          <div class="innerDau">
+          <img src="image/khoaimon.png" width="100px">
+          <p class="name">Khoai Môn</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">SOLD OUT</button>
+         </div>
+        </div>
+         <div class="col-sm-6 col-md-3 text-center dau" data-aos-delay="600"  data-aos="fade-up">
+          <div class="innerDau">
+          <img src="image/bacha.png" width="100px">
+          <p class="name">Bạc Hà</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">SOLD OUT</button>
+         </div>
+        </div>
+         <div class="col-sm-6 col-md-3 text-center dau" data-aos-delay="900"  data-aos="fade-up">
+          <div class="innerDau">
+          <img src="image/socola.png" width="100px">
+          <p class="name">Socola</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">SOLD OUT</button>
+         </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 text-center dau" data-aos-delay="0"  data-aos="fade-up">
+          <div class="innerDau">
+          <img src="image/phanquang.png" width="100px">
+          <p class="name">ÁO THUN PHẢN QUANG</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">Buy Now</button>
+         </div>
+        </div>
+         <div class="col-sm-6 col-md-4 text-center dau" data-aos-delay="300"  data-aos="fade-up">
+          <div class="innerDau">
+          <img src="image/hologram.png" width="100px">
+          <p class="name">BÌNH NƯỚC HOLOGRAM</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">Buy Now</button>
+         </div>
+        </div>
+         <div class="col-sm-6 col-md-4 text-center dau" data-aos-delay="600"  data-aos="fade-up">
+          <div class="innerDau">
+          <img src="image/combo.png" width="100px">
+          <p class="name">COMBO ẤN PHẨM</p>
+          <p class="price">320k</p>
+           <button class="buy sold ">Buy Now</button>
+         </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  </section>
+    
+</main>
+<footer>
+  <div class="footer" id="singer">
+    <div class="footer-inner">
+      <div class="container py-5">
+        <div class="row">
+              <div class="col-sm-4 box">
+                <img src="image/logo.png" width="100%">
+              </div>
+                <div class="col-sm-4 box">
+                  <h1 class="title mb-3">PHIÊU CONCERT</h1>
+                  <p class="date">05 OCTOBER, 2019</p>
+                  <address class="address">Sala City, 10 Mai Chi Tho, Thu Thiem New Urban Area, District 2, HCMC</address>
+                </div>
+              <div class="col-sm-4 box">
+                   <h1 class="title mb-3"> SOCIAL CONNECTION</h1>
+                   <p class="address">You should connect social area</p>
+                   <p class="address">for Any update</p>
+                   <div class="icon">
+                    <a href="#"> <i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+      
+              </div>
+              <div class="last">
+                <p>© Second covid-19 year - Duy Khang</p>
+              </div>
+      </div>
+ </div>
+</div>
+</footer>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
