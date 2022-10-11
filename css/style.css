@@ -51,7 +51,7 @@ header .navbar ul li a{
 /* main */
 /* Timer */
 #countdown {
-    background: url('images/banner.gif');
+    background: url('image/banner.gif');
 	background-position: center;
 	background-size: cover;
 	max-height: 100vh;
@@ -108,7 +108,7 @@ header .navbar ul li a{
 
 /* singer */
 section .listsinger{
-	background: url('images/bg.jpg');
+	background: url('image/bg.jpg');
 	background-position: center;
 	background-size: cover;
     height: 500px;
